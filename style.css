@@ -1,0 +1,120 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #2bff00, #eeff00, #ff6600, #ff0000, #ea00ff);
+}
+
+.header
+{
+	color: rgb(255, 0, 0);font-family: 'cursive';font-size: 45px;letter-spacing: 10px;margin-top: 80px;background-color: rgb(55, 0, 255);
+}
+
+.htag
+{
+	color: rgb(0, 17, 255);font-family: 'yeon sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;background-color: rgb(0, 255, 64);
+}
+.header img
+{
+	width: 80px;margin-left: -15px;background-color: green;
+}
+
+.login_div
+{
+	background: rgba(255, 196, 0, 0.548);float: none;border-radius: 15px;
+}
+
+.iron
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;background-color: brown;
+}
+
+.spider
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;background-color: rgb(255, 0, 0);
+}
+
+.race
+{
+	width: 55px;margin-top: 30px;border-radius: 50px;background-color: rgb(17, 0, 255);
+}
+
+.welcome
+{
+	width: 100px;margin-left: -100px;background-color: green;
+}
+
+#login_button
+{
+	width: 90%;border-radius: 20px;background-color: rgb(9, 255, 0);
+}
+
+#Add_Room
+{
+	background-color: rgb(0, 38, 255);float: none;border-radius: 15px;width: 30%;border-radius: 20px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 100px;
+}
+
+
+#logout
+{
+	font-size: 30px; float: right;background-color: goldenrod;
+}
+
+
+#output
+{
+	padding: 10px; width:90%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;background-color: rgb(255, 0, 0);
+}
+
+.input_div label
+{
+	color: rgb(17, 0, 255);font-size: 20px;background-color: lawngreen;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(136, 255, 0, 0.8);
+}
+.input_div_message_page label
+{
+	color: rgb(255, 81, 0);
+}
+.input_div_message_page #msg
+{
+	width: 80%;background-color: gold;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+	background-color: gold;
+}
+.color_white
+{
+	color: rgb(0, 255, 200)
+}
+
+.user_tick
+{
+	width:30px;
+}
+.message_h4
+{
+	padding-left:5px;background-color: gold;
+}

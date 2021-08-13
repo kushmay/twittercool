@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-link">Logout</button>
+	<center>
+		<h1 class="header">	
+		Welcome To Twitter Room
+			<sup>
+				<img src="thor_face.png">
+			</sup>
+		</h1>
+		<h3 id="user name" class="color_green"></h3>
+		<div class="form-group input_div_room_page">
+			<img src="racing.gif" class="race">
+			<label>#Add Room:</label>
+<input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+		</div>
+		<img src="30173-welcome-screen.gif" class="welcome">
+		<h5>click Add Room room button</h5>
+		<button id="Add_Room" onclick="AddRoom();" class="btn btn-primary">#Add Room</button>
+		<h5 class="color_black">You can also join the room</h5>
+		<h3 class="color_white">#your created room</h3>
+	<div id="output"></div>
+	</center>
+</div>
+<script src="twitter_room_page.js"></script>
+</body>
+</html>
